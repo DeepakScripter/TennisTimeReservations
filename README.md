@@ -43,7 +43,7 @@ Follow these steps to set up the Tennis Court Booking App locally:
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+        https://github.com/DeepakScripter/TennisTimeReservations.git
    ```
 
 2. **Navigate to the project directory:**
@@ -92,13 +92,3 @@ The repository follows a structured organization with the following directories:
 
 Contributions to the Tennis Court Booking App are welcome! If you have suggestions for improvements or bug fixes, please open an issue or submit a pull request.
 
-## License 📄
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to customize the README further to include any additional information or sections that may be relevant to your project.
-```
-
-You can copy and paste this README content into your project's README.md file. Feel free to customize it further according to your project's specific details and requirements!
