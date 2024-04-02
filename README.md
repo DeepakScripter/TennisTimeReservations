@@ -43,7 +43,7 @@ Follow these steps to set up the Tennis Court Booking App locally:
 
 1. **Clone the repository:**
    ```bash
-        https://github.com/DeepakScripter/TennisTimeReservations.git
+    https://github.com/DeepakScripter/TennisTimeReservations.git
    ```
 
 2. **Navigate to the project directory:**
