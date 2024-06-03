@@ -1,0 +1,681 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Deepak Vishvkarma\\Downloads\\New folder (2)\\TennisCourtBookingApp\\TennisCourtBookingApp\\WebApplication1\\WebApplication1.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Deepak Vishvkarma\\Downloads\\New folder (2)\\TennisCourtBookingApp\\TennisCourtBookingApp\\TennisCourtBookingApp.Common\\TennisCourtBookingApp.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Deepak Vishvkarma\\Downloads\\New folder (2)\\TennisCourtBookingApp\\TennisCourtBookingApp\\TennisCourtBookingApp.Common\\TennisCourtBookingApp.Common.csproj",
+        "projectName": "TennisCourtBookingApp.Common",
+        "projectPath": "C:\\Users\\Deepak Vishvkarma\\Downloads\\New folder (2)\\TennisCourtBookingApp\\TennisCourtBookingApp\\TennisCourtBookingApp.Common\\TennisCourtBookingApp.Common.csproj",
+        "packagesPath": "C:\\Users\\Deepak Vishvkarma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Deepak Vishvkarma\\Downloads\\New folder (2)\\TennisCourtBookingApp\\TennisCourtBookingApp\\TennisCourtBookingApp.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Deepak Vishvkarma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "BouncyCastle.NetCore": {
+              "target": "Package",
+              "version": "[2.2.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[6.0.29, )"
+            },
+            "Microsoft.AspNetCore.Mvc.TagHelpers": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Razor.Runtime": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.ReportViewer.WebForms": {
+              "target": "Package",
+              "version": "[10.0.40219.1, )"
+            },
+            "PDFsharp": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "ReportViewerCore.NETCore": {
+              "target": "Package",
+              "version": "[15.1.19, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "itext7": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "itext7.bouncy-castle-adapter": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Deepak Vishvkarma\\Downloads\\New folder (2)\\TennisCourtBookingApp\\TennisCourtBookingApp\\TennisCourtBookingApp.Provider\\TennisCourtBookingApp.Provider.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Deepak Vishvkarma\\Downloads\\New folder (2)\\TennisCourtBookingApp\\TennisCourtBookingApp\\TennisCourtBookingApp.Provider\\TennisCourtBookingApp.Provider.csproj",
+        "projectName": "TennisCourtBookingApp.Provider",
+        "projectPath": "C:\\Users\\Deepak Vishvkarma\\Downloads\\New folder (2)\\TennisCourtBookingApp\\TennisCourtBookingApp\\TennisCourtBookingApp.Provider\\TennisCourtBookingApp.Provider.csproj",
+        "packagesPath": "C:\\Users\\Deepak Vishvkarma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Deepak Vishvkarma\\Downloads\\New folder (2)\\TennisCourtBookingApp\\TennisCourtBookingApp\\TennisCourtBookingApp.Provider\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Deepak Vishvkarma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Deepak Vishvkarma\\Downloads\\New folder (2)\\TennisCourtBookingApp\\TennisCourtBookingApp\\TennisCourtBookingApp.Common\\TennisCourtBookingApp.Common.csproj": {
+                "projectPath": "C:\\Users\\Deepak Vishvkarma\\Downloads\\New folder (2)\\TennisCourtBookingApp\\TennisCourtBookingApp\\TennisCourtBookingApp.Common\\TennisCourtBookingApp.Common.csproj"
+              },
+              "C:\\Users\\Deepak Vishvkarma\\Downloads\\New folder (2)\\TennisCourtBookingApp\\TennisCourtBookingApp\\TennisCourtBookingApp.Repository\\TennisCourtBookingApp.Repository.csproj": {
+                "projectPath": "C:\\Users\\Deepak Vishvkarma\\Downloads\\New folder (2)\\TennisCourtBookingApp\\TennisCourtBookingApp\\TennisCourtBookingApp.Repository\\TennisCourtBookingApp.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "BouncyCastle.NetCore": {
+              "target": "Package",
+              "version": "[2.2.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[6.0.29, )"
+            },
+            "Microsoft.AspNetCore.Mvc.TagHelpers": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Razor.Runtime": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.ReportViewer.WebForms": {
+              "target": "Package",
+              "version": "[10.0.40219.1, )"
+            },
+            "PDFsharp": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "ReportViewerCore.NETCore": {
+              "target": "Package",
+              "version": "[15.1.19, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "itext7": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "itext7.bouncy-castle-adapter": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Deepak Vishvkarma\\Downloads\\New folder (2)\\TennisCourtBookingApp\\TennisCourtBookingApp\\TennisCourtBookingApp.Repository\\TennisCourtBookingApp.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Deepak Vishvkarma\\Downloads\\New folder (2)\\TennisCourtBookingApp\\TennisCourtBookingApp\\TennisCourtBookingApp.Repository\\TennisCourtBookingApp.Repository.csproj",
+        "projectName": "TennisCourtBookingApp.Repository",
+        "projectPath": "C:\\Users\\Deepak Vishvkarma\\Downloads\\New folder (2)\\TennisCourtBookingApp\\TennisCourtBookingApp\\TennisCourtBookingApp.Repository\\TennisCourtBookingApp.Repository.csproj",
+        "packagesPath": "C:\\Users\\Deepak Vishvkarma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Deepak Vishvkarma\\Downloads\\New folder (2)\\TennisCourtBookingApp\\TennisCourtBookingApp\\TennisCourtBookingApp.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Deepak Vishvkarma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Deepak Vishvkarma\\Downloads\\New folder (2)\\TennisCourtBookingApp\\TennisCourtBookingApp\\TennisCourtBookingApp.Common\\TennisCourtBookingApp.Common.csproj": {
+                "projectPath": "C:\\Users\\Deepak Vishvkarma\\Downloads\\New folder (2)\\TennisCourtBookingApp\\TennisCourtBookingApp\\TennisCourtBookingApp.Common\\TennisCourtBookingApp.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "BouncyCastle.NetCore": {
+              "target": "Package",
+              "version": "[2.2.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[6.0.29, )"
+            },
+            "Microsoft.AspNetCore.Mvc.TagHelpers": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Razor.Runtime": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.ReportViewer.WebForms": {
+              "target": "Package",
+              "version": "[10.0.40219.1, )"
+            },
+            "PDFsharp": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "ReportViewerCore.NETCore": {
+              "target": "Package",
+              "version": "[15.1.19, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "itext7": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "itext7.bouncy-castle-adapter": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Deepak Vishvkarma\\Downloads\\New folder (2)\\TennisCourtBookingApp\\TennisCourtBookingApp\\TennisCourtBookingApp.Web\\TennisCourtBookingApp.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Deepak Vishvkarma\\Downloads\\New folder (2)\\TennisCourtBookingApp\\TennisCourtBookingApp\\TennisCourtBookingApp.Web\\TennisCourtBookingApp.Web.csproj",
+        "projectName": "TennisCourtBookingApp.Web",
+        "projectPath": "C:\\Users\\Deepak Vishvkarma\\Downloads\\New folder (2)\\TennisCourtBookingApp\\TennisCourtBookingApp\\TennisCourtBookingApp.Web\\TennisCourtBookingApp.Web.csproj",
+        "packagesPath": "C:\\Users\\Deepak Vishvkarma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Deepak Vishvkarma\\Downloads\\New folder (2)\\TennisCourtBookingApp\\TennisCourtBookingApp\\TennisCourtBookingApp.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Deepak Vishvkarma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Deepak Vishvkarma\\Downloads\\New folder (2)\\TennisCourtBookingApp\\TennisCourtBookingApp\\TennisCourtBookingApp.Provider\\TennisCourtBookingApp.Provider.csproj": {
+                "projectPath": "C:\\Users\\Deepak Vishvkarma\\Downloads\\New folder (2)\\TennisCourtBookingApp\\TennisCourtBookingApp\\TennisCourtBookingApp.Provider\\TennisCourtBookingApp.Provider.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "BouncyCastle.NetCore": {
+              "target": "Package",
+              "version": "[2.2.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[6.0.29, )"
+            },
+            "Microsoft.AspNetCore.Mvc.TagHelpers": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Razor.Runtime": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.ReportViewer.WebForms": {
+              "target": "Package",
+              "version": "[10.0.40219.1, )"
+            },
+            "Microsoft.ReportingServices.ReportViewerControl.WebForms": {
+              "target": "Package",
+              "version": "[150.1620.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "PDFsharp": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "ReportViewerCore.NETCore": {
+              "target": "Package",
+              "version": "[15.1.19, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "itext7": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "itext7.bouncy-castle-adapter": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Deepak Vishvkarma\\Downloads\\New folder (2)\\TennisCourtBookingApp\\TennisCourtBookingApp\\WebApplication1\\WebApplication1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Deepak Vishvkarma\\Downloads\\New folder (2)\\TennisCourtBookingApp\\TennisCourtBookingApp\\WebApplication1\\WebApplication1.csproj",
+        "projectName": "WebApplication1",
+        "projectPath": "C:\\Users\\Deepak Vishvkarma\\Downloads\\New folder (2)\\TennisCourtBookingApp\\TennisCourtBookingApp\\WebApplication1\\WebApplication1.csproj",
+        "packagesPath": "C:\\Users\\Deepak Vishvkarma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Deepak Vishvkarma\\Downloads\\New folder (2)\\TennisCourtBookingApp\\TennisCourtBookingApp\\WebApplication1\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Deepak Vishvkarma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Deepak Vishvkarma\\Downloads\\New folder (2)\\TennisCourtBookingApp\\TennisCourtBookingApp\\TennisCourtBookingApp.Common\\TennisCourtBookingApp.Common.csproj": {
+                "projectPath": "C:\\Users\\Deepak Vishvkarma\\Downloads\\New folder (2)\\TennisCourtBookingApp\\TennisCourtBookingApp\\TennisCourtBookingApp.Common\\TennisCourtBookingApp.Common.csproj"
+              },
+              "C:\\Users\\Deepak Vishvkarma\\Downloads\\New folder (2)\\TennisCourtBookingApp\\TennisCourtBookingApp\\TennisCourtBookingApp.Provider\\TennisCourtBookingApp.Provider.csproj": {
+                "projectPath": "C:\\Users\\Deepak Vishvkarma\\Downloads\\New folder (2)\\TennisCourtBookingApp\\TennisCourtBookingApp\\TennisCourtBookingApp.Provider\\TennisCourtBookingApp.Provider.csproj"
+              },
+              "C:\\Users\\Deepak Vishvkarma\\Downloads\\New folder (2)\\TennisCourtBookingApp\\TennisCourtBookingApp\\TennisCourtBookingApp.Repository\\TennisCourtBookingApp.Repository.csproj": {
+                "projectPath": "C:\\Users\\Deepak Vishvkarma\\Downloads\\New folder (2)\\TennisCourtBookingApp\\TennisCourtBookingApp\\TennisCourtBookingApp.Repository\\TennisCourtBookingApp.Repository.csproj"
+              },
+              "C:\\Users\\Deepak Vishvkarma\\Downloads\\New folder (2)\\TennisCourtBookingApp\\TennisCourtBookingApp\\TennisCourtBookingApp.Web\\TennisCourtBookingApp.Web.csproj": {
+                "projectPath": "C:\\Users\\Deepak Vishvkarma\\Downloads\\New folder (2)\\TennisCourtBookingApp\\TennisCourtBookingApp\\TennisCourtBookingApp.Web\\TennisCourtBookingApp.Web.csproj"
+              },
+              "C:\\Users\\Deepak Vishvkarma\\Downloads\\New folder (2)\\TennisCourtBookingApp\\TennisCourtBookingApp\\WindowsFormsApp1\\WindowsFormsApp1.csproj": {
+                "projectPath": "C:\\Users\\Deepak Vishvkarma\\Downloads\\New folder (2)\\TennisCourtBookingApp\\TennisCourtBookingApp\\WindowsFormsApp1\\WindowsFormsApp1.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Deepak Vishvkarma\\Downloads\\New folder (2)\\TennisCourtBookingApp\\TennisCourtBookingApp\\WindowsFormsApp1\\WindowsFormsApp1.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Deepak Vishvkarma\\Downloads\\New folder (2)\\TennisCourtBookingApp\\TennisCourtBookingApp\\WindowsFormsApp1\\WindowsFormsApp1.csproj",
+        "projectName": "WindowsFormsApp1",
+        "projectPath": "C:\\Users\\Deepak Vishvkarma\\Downloads\\New folder (2)\\TennisCourtBookingApp\\TennisCourtBookingApp\\WindowsFormsApp1\\WindowsFormsApp1.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    }
+  }
+}

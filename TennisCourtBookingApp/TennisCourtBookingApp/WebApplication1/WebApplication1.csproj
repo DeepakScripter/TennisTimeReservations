@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TennisCourtBookingApp.Common\TennisCourtBookingApp.Common.csproj" />
+    <ProjectReference Include="..\TennisCourtBookingApp.Provider\TennisCourtBookingApp.Provider.csproj" />
+    <ProjectReference Include="..\TennisCourtBookingApp.Repository\TennisCourtBookingApp.Repository.csproj" />
+    <ProjectReference Include="..\TennisCourtBookingApp.Web\TennisCourtBookingApp.Web.csproj" />
+    <ProjectReference Include="..\WindowsFormsApp1\WindowsFormsApp1.csproj" />
+  </ItemGroup>
+
+</Project>
