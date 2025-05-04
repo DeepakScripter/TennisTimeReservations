@@ -18,8 +18,7 @@ namespace TennisCourtBookingApp.Common.Utility
             private static readonly string SMTPHost = "smtp.office365.com";
             private static readonly int SMTPPort = 587;
             private static readonly string SMTPUserName = "text@gmail.com";
-            private static readonly string SMTPPassword = "pwd@22";
-            //private static readonly string SMTPAvaUserName = "orders@avamedsupply.com"; 
+            
             #endregion
 
 
